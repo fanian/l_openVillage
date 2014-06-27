@@ -1,0 +1,603 @@
+@import url(http://fonts.googleapis.com/css?family=Cuprum&subset=cyrillic,latin)
+$f: 'Cuprum', sans-serif
+
+
+
+body
+  font-family: $f
+  background: #ffffff
+  min-width: 1200px
+  min-height: 200px
+
+
+*, *:before, *:after
+  -moz-box-sizing: border-box
+  -webkit-box-sizing: border-box
+  box-sizing: border-box
+  outline: none
+
+@import "compass/css3"
+
+@import "placeholderText.scss"
+
+input
+  @include input-placeholder
+    color: rgb(190,190,190)
+    font-weight: bold
+    font-size: 20px
+    padding-left: 20px
+
+.wrapper
+  width: 960px
+  margin: 0 auto
+  position: relative
+  padding-top: 26px
+
+
+
+.fl
+  float: left
+
+.fr
+  float: right
+
+.cb
+  clear: both
+
+
+header
+  background: url(../img/background_top.jpg) center no-repeat
+  height: 720px
+
+.top
+  height: 125px
+  background: rgba(255, 255, 255, 0.7)
+  .wrapper
+    padding-top: 14px
+    .tel
+      text-align: right
+      h2
+        font-size: 29px
+        margin: 0
+
+        span
+          color: #ae1739
+      p
+        font-size: 29px
+        font-weight: bold
+        text-align: right
+        margin: 14px 0 0
+.descr
+  text-align: center
+  .wrapper
+    h2
+      background: rgba(197,41,43,0.7)
+      font-size: 52px
+      font-weight: normal
+      text-transform: uppercase
+      color: #ffffff
+      margin-top: 162px
+      margin-bottom: 10px
+      @include text-shadow(2px 1px 1px rgba(0, 0, 0, .6))
+    h3
+      @extend h2
+      font-size: 37px
+      font-weight: normal
+      margin-top: 0
+.special
+  background: url(../img/bg_man.jpg) center no-repeat
+  height: 437px
+  .wrapper
+    @extend .wrapper
+    width: 780px
+    text-align: center
+    padding-top: 0
+    margin-top: 12px
+    h2
+      text-transform: uppercase
+      font-size: 49px
+      margin: 0
+      line-height: 1.1em
+    h3
+      text-transform: uppercase
+      margin: 0
+      font-size: 32px
+      line-height: 1.1em
+    h4
+      font-size: 60px
+      color: rgb(198, 25, 44)
+      text-align: center
+      margin-right: 190px
+      margin-top: 5px
+      margin-bottom: 0
+    h5
+      font-size: 38px
+      text-align: right
+      margin: -10px 142px 0 0
+      color: rgb(112,24,118)
+    h6
+      font-size: 30px
+      margin: -7px 170px 0 0
+      span
+        color: rgb(198, 25, 44)
+        font-size: 40px
+    h7
+      font-size: 22px
+      margin: 0
+      line-height: 1.1em
+      font-weight: bold
+      span
+        color: rgb(198, 25, 44)
+        font-size: 24px
+        text-transform: uppercase
+.message
+  background: url(../img/bg_message.jpg) center no-repeat
+  height: 298px
+  .timer
+    padding-left: 40px
+    h3
+      font-size: 45px
+      font-weight: bold
+      color: #ffffff
+      text-align: center
+      text-transform: uppercase
+      margin-top: 16px
+      margin-bottom: 0
+      @include text-shadow(2px 1px 1px rgba(0, 0, 0, .6))
+    .timerInner
+      height: 140px
+      width: 510px
+      border: solid 7px #ffffff
+      border-radius: 10px
+      .digitsBlock
+        width: 92px
+        height: 68px
+  .send
+    width: 275px
+    height: 210px
+    margin: 25px 0 0
+    padding-left: 90px
+    input
+      width: 270px
+      height: 43px
+      background: #ffffff
+      border-radius: 5px
+      margin-bottom: 7px
+    button
+      width: 270px
+      height: 43px
+      color: #000
+      font-size: 24px
+      @include text-shadow(2px 1px 1px rgba(0, 0, 0, .2))
+      text-transform: uppercase
+      font-weight: bold
+      border-radius: 5px
+      border: 2px solid #ffff00
+      background-color: rgb(255,200,12)
+      @include background(linear-gradient(top,rgb(255,201,0),rgb(255,162,0)))
+      +box-shadow(chocolate 0 3px 5px)
+
+.crossLine
+  text-align: center
+  float: center
+  display: inline-block
+  h2
+    float: left
+    font-size: 45px
+    font-weight: bold
+    color: rgb(99, 4, 96)
+    text-transform: uppercase
+    margin: 0 10px
+    @include text-shadow(2px 1px 1px rgba(0, 0, 0, .2))
+
+
+    line-height: 1.1em
+  .dash
+    background: url(../img/dash_pink.png) center center no-repeat
+    width: 104px
+    height: 36px
+
+
+
+
+.about
+  text-align: center
+  h2
+    font-size: 45px
+    font-weight: bold
+    color: rgb(99, 4, 96)
+    text-transform: uppercase
+    margin: 0 20px
+    @include text-shadow(2px 1px 1px rgba(0, 0, 0, .2))
+    line-height: 1.1em
+  h3
+    font-size: 28px
+    font-weight: bold
+    text-transform: uppercase
+    margin: 0 25px
+    color: rgb(198,25,44)
+    @include text-shadow(2px 1px 1px rgba(0, 0, 0, .2))
+
+  ul
+    padding: 0 0 0 20px
+    list-style: none
+    margin: 0 0 0 5px
+    li
+      background: url(../img/check.png) no-repeat
+      padding-left: 65px
+      font-size: 18px
+      margin-bottom: 20px
+      margin-right: 45px
+      text-align: left
+.crossLineOrange
+  text-align: center
+  float: center
+  display: inline-block
+  h2
+    float: left
+    font-size: 28px
+    font-weight: bold
+    color: rgb(198,25,44)
+    text-transform: uppercase
+    margin: 0 40px
+    line-height: 1.1em
+    @include text-shadow(2px 1px 1px rgba(0, 0, 0, .2))
+  .dashOrange
+    background: url(../img/dash_orange.png) center center no-repeat
+    width: 104px
+    height: 28px
+
+.program
+  height: 650px
+  .wrapper
+    @extend .wrapper
+    width: 792px
+  .ticket
+    width: 396px
+    height: 631px
+    background: url(../img/ticket.png)center no-repeat
+    text-align: center
+    .send
+
+      height: 210px
+      margin: 5px 0 0
+      input
+        width: 270px
+        height: 43px
+        background: #ffffff
+        border-radius: 5px
+        margin-bottom: 7px
+      button
+        width: 270px
+        height: 70px
+        color: #000
+        font-size: 24px
+        @include text-shadow(2px 1px 1px rgba(0, 0, 0, .2))
+        text-transform: uppercase
+        font-weight: bold
+        border-radius: 5px
+        border: 2px solid #ffff00
+        background-color: rgb(255,200,12)
+        @include background(linear-gradient(top,rgb(255,201,0),rgb(255,162,0)))
+        +box-shadow(chocolate 0 5px 10px)
+    h3
+      font-size: 28px
+      margin-top: 35px
+      margin-bottom: 10px
+      text-transform: uppercase
+      span
+        color: rgb(198,25,44)
+        text-transform: lowercase
+
+    h2
+      text-transform: uppercase
+      font-size: 32px
+      margin: 0 0 -20px
+    h4
+      text-transform: uppercase
+      font-size: 16px
+      color: rgb(99, 4, 96)
+      width: 270px
+      display: block
+      font-family: sans-serif
+      margin: 0 auto
+    img
+      margin: 20px auto
+      display: block
+    .second
+      display: inline-block
+.see
+  margin-top: 20px
+  .whatDoYouSee
+    width: 940px
+    height: 1415px
+    +box-shadow(#d9d9d9 0 0 1px  8px)
+    border-radius: 10px
+    border: #d9d9d9 1px inset
+    .article
+      counter-reset: numList
+    h2
+      text-align: center
+      text-transform: uppercase
+      font-size: 28px
+      color: rgb(198,25,44)
+      margin-top: 30px
+      margin-bottom: -20px
+
+    ol
+    display: block
+    font-size: 28px
+    padding: 0 0 0 30px
+    list-style: none
+    overflow: hidden
+    counter-reset: numList
+    font-weight: bold
+
+    li
+      width: 861px
+      padding-left: 10px
+      float: left
+      position: relative
+      span
+        color: rgb(70,185,187)
+        text-decoration: underline
+
+    li:before
+      counter-increment: numList
+      content: counter(numList)
+
+      float: left
+      position: absolute
+      left: -40px
+
+      font-size: 28px
+      font-weight: bold
+      text-align: center
+      color: #fff
+      line-height: 37px
+
+      width: 37px
+      height: 37px
+      background: rgb(112,24,118)
+
+      border-radius: 999px
+.reviews
+  text-align: center
+  margin-top: 10px
+  @extend .wrapper
+  width: 1000px
+  height: 410px
+  .slider
+    @extend .wrapper
+    margin-left: 60px
+
+  .left
+    background: url(../img/redArrow.png) no-repeat
+    width: 46px
+    height: 46px
+    cursor: pointer
+    position: absolute
+    left: 0
+    top: 240px
+  .right
+    background: url(../img/darkArrow.png) no-repeat
+    width: 46px
+    height: 46px
+    cursor: pointer
+    position: absolute
+    right: 0
+    top: 240px
+
+  .dash
+    width: 340px
+    background: url(../img/dash_pink.png) center repeat-x
+  .review
+    background: url(../img/review1.png) center left no-repeat
+    width: 870px
+    height: 300px
+    text-align: left
+    margin: auto
+    .text
+      margin-left: 270px
+      padding-top: 20px
+      h3
+        display: block
+        margin: 0
+        color: rgb(198,25,44)
+        font-size: 28px
+      h4
+        display: inline-block
+        margin: 0
+        color: rgb(112,24,118)
+        text-transform: uppercase
+        font-size: 20px
+      h5
+        width: 600px
+        font-size: 18px
+        line-height: 1.2em
+        margin-top: 14px
+  .review2
+    @extend .review
+    background: url(../img/review2.png) center left no-repeat
+  .review3
+    @extend .review
+    background: url(../img/review3.png) center left no-repeat
+
+
+.we
+  height: 1132px
+  background: url(../img/weAreTheBest.jpg) center no-repeat
+  .best
+    width: 960px
+    height: 992px
+    +box-shadow(#ffffff 0 0 1px  8px)
+    border: #e4e4e4 1px inset
+    border-radius: 5px
+    margin-top: 25px
+    .first
+      height: 92px
+      background: rgba(255, 255, 255, 0.7)
+      text-align: center
+      padding-top: 16px
+      h2
+        font-size: 40px
+        color: rgb(198,25,44)
+        margin: 0
+        text-transform: uppercase
+        line-height: 1.3em
+    .second
+      background: rgba(255, 255, 255, 0.9) url(../img/calendar.png) center left no-repeat
+      height: 128px
+      h3
+        display: inline-block
+        margin-left: 125px
+        width: 800px
+        span
+          color: rgb(112,24,118)
+        span:nth-child(2)
+          color: rgb(70,185,187)
+          text-decoration: underline
+    .third
+      @extend .second
+      background: rgba(255, 255, 255, 0.7) url(../img/star.png) center left no-repeat
+    .forth
+      @extend .second
+      background: rgba(255, 255, 255, 0.9) url(../img/logo_small.png) center left no-repeat
+    .fifth
+      @extend .first
+      height: 135px
+    .sixth
+      @extend .second
+      background: rgba(255, 255, 255, 0.9) url(../img/hearth.png) center left no-repeat
+    .seventh
+      @extend .second
+      background: rgba(255, 255, 255, 0.7) url(../img/say.png) center left no-repeat
+    .eighth
+      @extend .second
+      background: rgba(255, 255, 255, 0.9) url(../img/people.png) center left no-repeat
+.footer
+  background: url(../img/bg_footer.jpg) center no-repeat
+  height: 480px
+  text-align: center
+  h2
+    font-size: 50px
+    color: #ffffff
+    text-transform: uppercase
+    @include text-shadow(2px 1px 1px rgba(0, 0, 0, .6))
+    font-weight: normal
+    margin: 0
+  h3
+    @extend h2
+    font-size: 34px
+    display: inline-block
+    margin-top: 20px
+
+  .dark
+    width: 940px
+    height: 160px
+    margin: 0 auto
+    background: rgba(0, 0, 0, 0.3)
+    ul
+      font-size: 34px
+      color: #ffffff
+      text-transform: uppercase
+      font-weight: bold
+      text-align: left
+      font-family: "Cuprum"
+      margin: 10px 0 0 40px
+      list-style-type: square
+      letter-spacing: 1px
+      @include text-shadow(2px 1px 1px rgba(0, 0, 0, .6))
+      li
+        padding-left: 10px
+
+.tour
+  margin: 10px auto
+  input
+    width: 270px
+    height: 44px
+    background: #ffffff
+    border-radius: 5px
+    margin-bottom: 7px
+    margin-right: 10px
+
+  button
+    width: 270px
+    height: 44px
+    color: #000
+    font-size: 24px
+    @include text-shadow(2px 1px 1px rgba(0, 0, 0, .2))
+    text-transform: uppercase
+    font-weight: bold
+    border-radius: 5px
+    border: 2px solid #ffff00
+    background-color: rgb(255,200,12)
+    @include background(linear-gradient(top,rgb(255,201,0),rgb(255,162,0)))
+    +box-shadow(chocolate 0 3px 5px)
+.flip-clock-wrapper
+  margin-left: 10px
+  margin-top: 3px
+
+  ul
+    width: 56px
+    margin-left: -2px
+    @include background(linear-gradient(top,rgb(255,255,255),rgb(0,0,0)))
+
+
+.flip-clock-dot
+  &.top
+    visibility: hidden
+  &.bottom
+    visibility: hidden
+
+.flip-clock-divider
+  width: 5px
+
+span
+  .flip-clock-label
+    color: #ffffff !important
+    font-weight: bold
+    text-transform: uppercase
+    font-size: 12px
+    left: 25px
+    top: 104px !important
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
