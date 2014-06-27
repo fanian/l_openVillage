@@ -4,21 +4,30 @@ $(document).ready(function() {
         timeout: 0,
         height: 'auto',
         pause: '',
-       //pager: '.sl1 .main-pager',
-       // cleartypeNoBg: true,
         next: '.right',
         prev: '.left'
     });
 
-//
-//    $('.sl4 .slider').after('<div class="main-pager"></div>').cycle({
-//        fx: 'fade',
-//        timeout: 0,
-//        height: 'auto',
-//        pause: '',
-//        pager: '.sl4 .main-pager',
-//        cleartypeNoBg: true,
-//        next: '.sl4 .right',
-//        prev: '.sl4 .left'
-//    });
-})
+});
+
+
+         $(document).ready(function() {
+
+             // Grab the current date
+             var currentDate = new Date();
+
+             // Set some date in the future
+
+             var futureDate = new Date(2014,06,01,00,00,00);
+
+             // Calculate the difference in seconds between the future and current date
+             var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
+
+             // Instantiate a coutdown FlipClock
+             var clock = $('.clock').FlipClock(diff, {
+                 clockFace: 'DailyCounter',
+                 language: 'ru',
+                 countdown: true
+             });
+         });
+

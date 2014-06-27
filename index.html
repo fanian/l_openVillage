@@ -359,29 +359,7 @@
         <script src="js/main.js"></script>
         <script src = "js/compiled/flipclock.js"></script>
         <script src = "js/jquery.cycle.all.js"></script>
-     <script type="text/javascript">
-         var clock;
 
-         $(document).ready(function() {
-
-             // Grab the current date
-             var currentDate = new Date();
-
-             // Set some date in the future
-
-             var futureDate = new Date(2014,06,01,00,00,00);
-
-             // Calculate the difference in seconds between the future and current date
-             var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
-
-             // Instantiate a coutdown FlipClock
-             clock = $('.clock').FlipClock(diff, {
-                 clockFace: 'DailyCounter',
-                 language: 'ru',
-                 countdown: true
-             });
-         });
-     </script>
 
 
     </body>

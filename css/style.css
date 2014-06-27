@@ -448,7 +448,6 @@ header {
 /* line 311, D:/proj/idea/openVillage/sass/style.sass */
 .see .whatDoYouSee {
   width: 940px;
-  height: 1415px;
   -webkit-box-shadow: #d9d9d9 0 0 1px 8px;
   -moz-box-shadow: #d9d9d9 0 0 1px 8px;
   box-shadow: #d9d9d9 0 0 1px 8px;
@@ -462,11 +461,11 @@ header {
   counter-reset: numList;
   font-weight: bold;
 }
-/* line 317, D:/proj/idea/openVillage/sass/style.sass */
+/* line 316, D:/proj/idea/openVillage/sass/style.sass */
 .see .whatDoYouSee .article {
   counter-reset: numList;
 }
-/* line 319, D:/proj/idea/openVillage/sass/style.sass */
+/* line 318, D:/proj/idea/openVillage/sass/style.sass */
 .see .whatDoYouSee h2, .see .whatDoYouSee .descr .wrapper h3, .descr .wrapper .see .whatDoYouSee h3, .see .whatDoYouSee .descr .reviews h3, .descr .reviews .see .whatDoYouSee h3, .see .whatDoYouSee .reviews .descr .slider h3, .reviews .descr .slider .see .whatDoYouSee h3, .see .whatDoYouSee .footer h3, .footer .see .whatDoYouSee h3 {
   text-align: center;
   text-transform: uppercase;
@@ -475,19 +474,19 @@ header {
   margin-top: 30px;
   margin-bottom: -20px;
 }
-/* line 336, D:/proj/idea/openVillage/sass/style.sass */
+/* line 335, D:/proj/idea/openVillage/sass/style.sass */
 .see .whatDoYouSee li {
   width: 861px;
   padding-left: 10px;
   float: left;
   position: relative;
 }
-/* line 341, D:/proj/idea/openVillage/sass/style.sass */
+/* line 340, D:/proj/idea/openVillage/sass/style.sass */
 .see .whatDoYouSee li span {
   color: #46b9bb;
   text-decoration: underline;
 }
-/* line 345, D:/proj/idea/openVillage/sass/style.sass */
+/* line 344, D:/proj/idea/openVillage/sass/style.sass */
 .see .whatDoYouSee li:before {
   counter-increment: numList;
   content: counter(numList);
@@ -505,18 +504,18 @@ header {
   border-radius: 999px;
 }
 
-/* line 364, D:/proj/idea/openVillage/sass/style.sass */
+/* line 363, D:/proj/idea/openVillage/sass/style.sass */
 .reviews {
   text-align: center;
   margin-top: 10px;
   width: 1000px;
-  height: 410px;
+  height: 440px;
 }
-/* line 370, D:/proj/idea/openVillage/sass/style.sass */
+/* line 369, D:/proj/idea/openVillage/sass/style.sass */
 .reviews .slider {
   margin-left: 60px;
 }
-/* line 374, D:/proj/idea/openVillage/sass/style.sass */
+/* line 373, D:/proj/idea/openVillage/sass/style.sass */
 .reviews .left {
   background: url(../img/redArrow.png) no-repeat;
   width: 46px;
@@ -526,7 +525,7 @@ header {
   left: 0;
   top: 240px;
 }
-/* line 382, D:/proj/idea/openVillage/sass/style.sass */
+/* line 381, D:/proj/idea/openVillage/sass/style.sass */
 .reviews .right {
   background: url(../img/darkArrow.png) no-repeat;
   width: 46px;
@@ -536,12 +535,12 @@ header {
   right: 0;
   top: 240px;
 }
-/* line 391, D:/proj/idea/openVillage/sass/style.sass */
+/* line 390, D:/proj/idea/openVillage/sass/style.sass */
 .reviews .dash {
   width: 340px;
   background: url(../img/dash_pink.png) center repeat-x;
 }
-/* line 394, D:/proj/idea/openVillage/sass/style.sass */
+/* line 393, D:/proj/idea/openVillage/sass/style.sass */
 .reviews .review, .reviews .review2, .reviews .review3 {
   background: url(../img/review1.png) center left no-repeat;
   width: 870px;
@@ -549,19 +548,19 @@ header {
   text-align: left;
   margin: auto;
 }
-/* line 400, D:/proj/idea/openVillage/sass/style.sass */
+/* line 399, D:/proj/idea/openVillage/sass/style.sass */
 .reviews .review .text, .reviews .review2 .text, .reviews .review3 .text {
   margin-left: 270px;
   padding-top: 20px;
 }
-/* line 403, D:/proj/idea/openVillage/sass/style.sass */
+/* line 402, D:/proj/idea/openVillage/sass/style.sass */
 .reviews .review .text h3, .reviews .review2 .text h3, .reviews .review3 .text h3 {
   display: block;
   margin: 0;
   color: #c6192c;
   font-size: 28px;
 }
-/* line 408, D:/proj/idea/openVillage/sass/style.sass */
+/* line 407, D:/proj/idea/openVillage/sass/style.sass */
 .reviews .review .text h4, .reviews .review2 .text h4, .reviews .review3 .text h4 {
   display: inline-block;
   margin: 0;
@@ -569,28 +568,28 @@ header {
   text-transform: uppercase;
   font-size: 20px;
 }
-/* line 414, D:/proj/idea/openVillage/sass/style.sass */
+/* line 413, D:/proj/idea/openVillage/sass/style.sass */
 .reviews .review .text h5, .reviews .review2 .text h5, .reviews .review3 .text h5 {
   width: 600px;
   font-size: 18px;
   line-height: 1.2em;
   margin-top: 14px;
 }
-/* line 419, D:/proj/idea/openVillage/sass/style.sass */
+/* line 418, D:/proj/idea/openVillage/sass/style.sass */
 .reviews .review2 {
   background: url(../img/review2.png) center left no-repeat;
 }
-/* line 422, D:/proj/idea/openVillage/sass/style.sass */
+/* line 421, D:/proj/idea/openVillage/sass/style.sass */
 .reviews .review3 {
   background: url(../img/review3.png) center left no-repeat;
 }
 
-/* line 427, D:/proj/idea/openVillage/sass/style.sass */
+/* line 426, D:/proj/idea/openVillage/sass/style.sass */
 .we {
   height: 1132px;
   background: url(../img/weAreTheBest.jpg) center no-repeat;
 }
-/* line 430, D:/proj/idea/openVillage/sass/style.sass */
+/* line 429, D:/proj/idea/openVillage/sass/style.sass */
 .we .best {
   width: 960px;
   height: 992px;
@@ -601,14 +600,14 @@ header {
   border-radius: 5px;
   margin-top: 25px;
 }
-/* line 437, D:/proj/idea/openVillage/sass/style.sass */
+/* line 436, D:/proj/idea/openVillage/sass/style.sass */
 .we .best .first, .we .best .fifth {
   height: 92px;
   background: rgba(255, 255, 255, 0.7);
   text-align: center;
   padding-top: 16px;
 }
-/* line 442, D:/proj/idea/openVillage/sass/style.sass */
+/* line 441, D:/proj/idea/openVillage/sass/style.sass */
 .we .best .first h2, .we .best .fifth h2, .we .best .first .descr .wrapper h3, .descr .wrapper .we .best .first h3, .we .best .fifth .descr .wrapper h3, .descr .wrapper .we .best .fifth h3, .we .best .first .descr .reviews h3, .descr .reviews .we .best .first h3, .we .best .fifth .descr .reviews h3, .descr .reviews .we .best .fifth h3, .we .best .first .reviews .descr .slider h3, .reviews .descr .slider .we .best .first h3, .we .best .fifth .reviews .descr .slider h3, .reviews .descr .slider .we .best .fifth h3, .we .best .first .footer h3, .footer .we .best .first h3, .we .best .fifth .footer h3, .footer .we .best .fifth h3 {
   font-size: 40px;
   color: #c6192c;
@@ -616,58 +615,58 @@ header {
   text-transform: uppercase;
   line-height: 1.3em;
 }
-/* line 448, D:/proj/idea/openVillage/sass/style.sass */
+/* line 447, D:/proj/idea/openVillage/sass/style.sass */
 .we .best .second, .we .best .third, .we .best .forth, .we .best .sixth, .we .best .seventh, .we .best .eighth {
   background: rgba(255, 255, 255, 0.9) url(../img/calendar.png) center left no-repeat;
   height: 128px;
 }
-/* line 451, D:/proj/idea/openVillage/sass/style.sass */
+/* line 450, D:/proj/idea/openVillage/sass/style.sass */
 .we .best .second h3, .we .best .third h3, .we .best .forth h3, .we .best .sixth h3, .we .best .seventh h3, .we .best .eighth h3 {
   display: inline-block;
   margin-left: 125px;
   width: 800px;
 }
-/* line 455, D:/proj/idea/openVillage/sass/style.sass */
+/* line 454, D:/proj/idea/openVillage/sass/style.sass */
 .we .best .second h3 span, .we .best .third h3 span, .we .best .forth h3 span, .we .best .sixth h3 span, .we .best .seventh h3 span, .we .best .eighth h3 span {
   color: #701876;
 }
-/* line 457, D:/proj/idea/openVillage/sass/style.sass */
+/* line 456, D:/proj/idea/openVillage/sass/style.sass */
 .we .best .second h3 span:nth-child(2), .we .best .third h3 span:nth-child(2), .we .best .forth h3 span:nth-child(2), .we .best .sixth h3 span:nth-child(2), .we .best .seventh h3 span:nth-child(2), .we .best .eighth h3 span:nth-child(2) {
   color: #46b9bb;
   text-decoration: underline;
 }
-/* line 460, D:/proj/idea/openVillage/sass/style.sass */
+/* line 459, D:/proj/idea/openVillage/sass/style.sass */
 .we .best .third {
   background: rgba(255, 255, 255, 0.7) url(../img/star.png) center left no-repeat;
 }
-/* line 463, D:/proj/idea/openVillage/sass/style.sass */
+/* line 462, D:/proj/idea/openVillage/sass/style.sass */
 .we .best .forth {
   background: rgba(255, 255, 255, 0.9) url(../img/logo_small.png) center left no-repeat;
 }
-/* line 466, D:/proj/idea/openVillage/sass/style.sass */
+/* line 465, D:/proj/idea/openVillage/sass/style.sass */
 .we .best .fifth {
   height: 135px;
 }
-/* line 469, D:/proj/idea/openVillage/sass/style.sass */
+/* line 468, D:/proj/idea/openVillage/sass/style.sass */
 .we .best .sixth {
   background: rgba(255, 255, 255, 0.9) url(../img/hearth.png) center left no-repeat;
 }
-/* line 472, D:/proj/idea/openVillage/sass/style.sass */
+/* line 471, D:/proj/idea/openVillage/sass/style.sass */
 .we .best .seventh {
   background: rgba(255, 255, 255, 0.7) url(../img/say.png) center left no-repeat;
 }
-/* line 475, D:/proj/idea/openVillage/sass/style.sass */
+/* line 474, D:/proj/idea/openVillage/sass/style.sass */
 .we .best .eighth {
   background: rgba(255, 255, 255, 0.9) url(../img/people.png) center left no-repeat;
 }
 
-/* line 478, D:/proj/idea/openVillage/sass/style.sass */
+/* line 477, D:/proj/idea/openVillage/sass/style.sass */
 .footer {
   background: url(../img/bg_footer.jpg) center no-repeat;
   height: 480px;
   text-align: center;
 }
-/* line 482, D:/proj/idea/openVillage/sass/style.sass */
+/* line 481, D:/proj/idea/openVillage/sass/style.sass */
 .footer h2, .footer .descr .wrapper h3, .descr .wrapper .footer h3, .footer .descr .reviews h3, .descr .reviews .footer h3, .footer .reviews .descr .slider h3, .reviews .descr .slider .footer h3, .footer h3 {
   font-size: 50px;
   color: white;
@@ -676,20 +675,20 @@ header {
   font-weight: normal;
   margin: 0;
 }
-/* line 489, D:/proj/idea/openVillage/sass/style.sass */
+/* line 488, D:/proj/idea/openVillage/sass/style.sass */
 .footer h3 {
   font-size: 34px;
   display: inline-block;
   margin-top: 20px;
 }
-/* line 495, D:/proj/idea/openVillage/sass/style.sass */
+/* line 494, D:/proj/idea/openVillage/sass/style.sass */
 .footer .dark {
   width: 940px;
   height: 160px;
   margin: 0 auto;
   background: rgba(0, 0, 0, 0.3);
 }
-/* line 500, D:/proj/idea/openVillage/sass/style.sass */
+/* line 499, D:/proj/idea/openVillage/sass/style.sass */
 .footer .dark ul {
   font-size: 34px;
   color: white;
@@ -702,16 +701,16 @@ header {
   letter-spacing: 1px;
   text-shadow: 2px 1px 1px rgba(0, 0, 0, 0.6);
 }
-/* line 511, D:/proj/idea/openVillage/sass/style.sass */
+/* line 510, D:/proj/idea/openVillage/sass/style.sass */
 .footer .dark ul li {
   padding-left: 10px;
 }
 
-/* line 514, D:/proj/idea/openVillage/sass/style.sass */
+/* line 513, D:/proj/idea/openVillage/sass/style.sass */
 .tour {
   margin: 10px auto;
 }
-/* line 516, D:/proj/idea/openVillage/sass/style.sass */
+/* line 515, D:/proj/idea/openVillage/sass/style.sass */
 .tour input {
   width: 270px;
   height: 44px;
@@ -720,7 +719,7 @@ header {
   margin-bottom: 7px;
   margin-right: 10px;
 }
-/* line 524, D:/proj/idea/openVillage/sass/style.sass */
+/* line 523, D:/proj/idea/openVillage/sass/style.sass */
 .tour button {
   width: 270px;
   height: 44px;
@@ -742,12 +741,12 @@ header {
   box-shadow: chocolate 0 3px 5px;
 }
 
-/* line 537, D:/proj/idea/openVillage/sass/style.sass */
+/* line 536, D:/proj/idea/openVillage/sass/style.sass */
 .flip-clock-wrapper {
   margin-left: 10px;
   margin-top: 3px;
 }
-/* line 541, D:/proj/idea/openVillage/sass/style.sass */
+/* line 540, D:/proj/idea/openVillage/sass/style.sass */
 .flip-clock-wrapper ul {
   width: 56px;
   margin-left: -2px;
@@ -758,21 +757,21 @@ header {
   background: linear-gradient(top, #ffffff, #000000);
 }
 
-/* line 548, D:/proj/idea/openVillage/sass/style.sass */
+/* line 547, D:/proj/idea/openVillage/sass/style.sass */
 .flip-clock-dot.top {
   visibility: hidden;
 }
-/* line 550, D:/proj/idea/openVillage/sass/style.sass */
+/* line 549, D:/proj/idea/openVillage/sass/style.sass */
 .flip-clock-dot.bottom {
   visibility: hidden;
 }
 
-/* line 553, D:/proj/idea/openVillage/sass/style.sass */
+/* line 552, D:/proj/idea/openVillage/sass/style.sass */
 .flip-clock-divider {
   width: 5px;
 }
 
-/* line 557, D:/proj/idea/openVillage/sass/style.sass */
+/* line 556, D:/proj/idea/openVillage/sass/style.sass */
 span .flip-clock-label {
   color: white !important;
   font-weight: bold;
